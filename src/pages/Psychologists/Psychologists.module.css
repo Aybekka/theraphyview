@@ -32,6 +32,64 @@
   gap: var(--space-32);
 }
 
+.skeleton {
+  display: flex;
+  gap: var(--space-24);
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-24);
+}
+
+.skeletonAvatar {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: var(--radius-modal);
+  background: var(--color-bg-muted);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.skeletonBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.skeletonLine {
+  height: 20px;
+  border-radius: var(--radius-badge);
+  background: var(--color-bg-muted);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.skeletonLine:nth-child(1) {
+  width: 40%;
+}
+
+.skeletonLine:nth-child(2) {
+  width: 70%;
+  height: 28px;
+}
+
+.skeletonLine:nth-child(3) {
+  width: 100%;
+}
+
+.skeletonLine:nth-child(4) {
+  width: 85%;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+
 .errorText {
   color: var(--color-error);
   margin-bottom: var(--space-16);

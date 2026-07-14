@@ -44,6 +44,18 @@ export default function Favorites() {
         )}
 
         <div className={styles.grid}>
+          {loading &&
+            [0, 1].map((n) => (
+              <div key={n} className={styles.skeleton} aria-hidden="true">
+                <div className={styles.skeletonAvatar} />
+                <div className={styles.skeletonBody}>
+                  <div className={styles.skeletonLine} />
+                  <div className={styles.skeletonLine} />
+                  <div className={styles.skeletonLine} />
+                  <div className={styles.skeletonLine} />
+                </div>
+              </div>
+            ))}
           {favoritePsychologists.map((psychologist) => (
             <PsychologistCard
               key={psychologist.id}
