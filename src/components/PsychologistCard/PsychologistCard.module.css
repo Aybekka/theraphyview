@@ -253,6 +253,9 @@
   .meta {
     gap: var(--space-8);
   }
+  .divider {
+    display: none;
+  }
   .appointmentButton {
     width: 100%;
   }
