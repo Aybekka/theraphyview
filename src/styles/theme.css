@@ -1,0 +1,59 @@
+:root {
+  --color-primary: #54be96;
+  --color-primary-hover: #36a379;
+  --color-primary-soft: rgba(84, 190, 150, 0.2);
+  --color-accent-purple: #4535af;
+  --color-accent-yellow: #fbc75e;
+  --color-star: #ffc531;
+
+  --color-bg: #fbfbfb;
+  --color-bg-muted: #f3f3f3;
+  --color-surface: #ffffff;
+  --color-on-primary: #fbfbfb;
+  --color-on-primary-soft: rgba(251, 251, 251, 0.5);
+  --color-text: #191a15;
+  --color-text-secondary: #8a8a89;
+  --color-text-soft: rgba(25, 26, 21, 0.5);
+  --color-text-faint: rgba(25, 26, 21, 0.3);
+  --color-border: rgba(25, 26, 21, 0.1);
+  --color-border-strong: rgba(25, 26, 21, 0.2);
+  --color-backdrop: rgba(25, 26, 21, 0.6);
+  --color-error: #d92d20;
+
+  --radius-badge: 10px;
+  --radius-input: 12px;
+  --radius-field: 14px;
+  --radius-image: 15px;
+  --radius-block: 20px;
+  --radius-card: 24px;
+  --radius-modal: 30px;
+  --radius-pill: 30px;
+  --radius-round: 100px;
+
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-64: 64px;
+
+  --btn-pad: 14px 40px;
+  --btn-outline-pad: 14px 39px;
+  --btn-lg-pad: 18px 50px;
+  --input-pad: 16px 18px;
+  --modal-pad: 64px;
+
+  --container-width: 1184px;
+  --container-pad: 128px;
+  --header-height: 96px;
+
+  --shadow-dropdown: 0 20px 34.5px rgba(0, 0, 0, 0.07);
+
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}

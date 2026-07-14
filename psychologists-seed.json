@@ -1,0 +1,689 @@
+{
+  "psychologists": {
+    "p01": {
+      "name": "Dr. Adam Reynolds",
+      "avatar_url": "https://i.pravatar.cc/150?img=2",
+      "experience": "6 years",
+      "reviews": [
+        {
+          "reviewer": "Sofia P.",
+          "rating": 4.5,
+          "comment": "Dr. Adam helped me through a very difficult period of my life."
+        },
+        {
+          "reviewer": "Rachel K.",
+          "rating": 4.0,
+          "comment": "Dr. Adam is understanding and empathetic. I always feel heard during our sessions."
+        },
+        {
+          "reviewer": "Noah G.",
+          "rating": 5.0,
+          "comment": "Dr. Adam has been a great help in managing my anxiety. The insights were valuable."
+        }
+      ],
+      "price_per_hour": 30,
+      "rating": 4.2,
+      "license": "Licensed Psychologist (License #10000)",
+      "specialization": "Family Therapy",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Adam is a highly experienced and licensed psychologist specializing in Family Therapy. With 6 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Adam is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p02": {
+      "name": "Dr. Alice Bennett",
+      "avatar_url": "https://i.pravatar.cc/150?img=4",
+      "experience": "3 years",
+      "reviews": [
+        {
+          "reviewer": "Tom B.",
+          "rating": 5.0,
+          "comment": "Dr. Alice has been a great help in managing my anxiety. The insights were valuable."
+        }
+      ],
+      "price_per_hour": 40,
+      "rating": 4.5,
+      "license": "Licensed Psychologist (License #10137)",
+      "specialization": "Anxiety & Stress",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Alice is a highly experienced and licensed psychologist specializing in Anxiety & Stress. With 3 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Alice is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p03": {
+      "name": "Dr. Brian Foster",
+      "avatar_url": "https://i.pravatar.cc/150?img=6",
+      "experience": "20 years",
+      "reviews": [
+        {
+          "reviewer": "Ava R.",
+          "rating": 5.0,
+          "comment": "Dr. Brian offers a warm, evidence-based approach that really works for me."
+        },
+        {
+          "reviewer": "Tom B.",
+          "rating": 5.0,
+          "comment": "Dr. Brian is extremely knowledgeable and kind. Sessions are well structured."
+        },
+        {
+          "reviewer": "Mia D.",
+          "rating": 4.0,
+          "comment": "Dr. Brian gave me practical tools I use every day. Highly recommended."
+        }
+      ],
+      "price_per_hour": 40,
+      "rating": 4.5,
+      "license": "Licensed Psychologist (License #10274)",
+      "specialization": "Trauma and PTSD",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "Brian is a highly experienced and licensed psychologist specializing in Trauma and PTSD. With 20 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Brian is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p04": {
+      "name": "Dr. Carla Mendes",
+      "avatar_url": "https://i.pravatar.cc/150?img=8",
+      "experience": "16 years",
+      "reviews": [
+        {
+          "reviewer": "Rachel K.",
+          "rating": 4.5,
+          "comment": "Dr. Carla created a safe space where I could finally open up."
+        },
+        {
+          "reviewer": "Linda Johnson",
+          "rating": 4.0,
+          "comment": "Dr. Carla offers a warm, evidence-based approach that really works for me."
+        }
+      ],
+      "price_per_hour": 50,
+      "rating": 4.5,
+      "license": "Licensed Psychologist (License #10411)",
+      "specialization": "Career Counseling",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Carla is a highly experienced and licensed psychologist specializing in Career Counseling. With 16 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Carla is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p05": {
+      "name": "Dr. Daniel Owusu",
+      "avatar_url": "https://i.pravatar.cc/150?img=10",
+      "experience": "6 years",
+      "reviews": [
+        {
+          "reviewer": "Noah G.",
+          "rating": 4.5,
+          "comment": "Dr. Daniel has been a great help in managing my anxiety. The insights were valuable."
+        },
+        {
+          "reviewer": "Ethan C.",
+          "rating": 5.0,
+          "comment": "Dr. Daniel is understanding and empathetic. I always feel heard during our sessions."
+        }
+      ],
+      "price_per_hour": 50,
+      "rating": 4.7,
+      "license": "Licensed Psychologist (License #10548)",
+      "specialization": "Depression and Mood Disorders",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Daniel is a highly experienced and licensed psychologist specializing in Depression and Mood Disorders. With 6 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Daniel is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p06": {
+      "name": "Dr. Elena Marsh",
+      "avatar_url": "https://i.pravatar.cc/150?img=12",
+      "experience": "15 years",
+      "reviews": [
+        {
+          "reviewer": "Sofia P.",
+          "rating": 5.0,
+          "comment": "Dr. Elena created a safe space where I could finally open up."
+        },
+        {
+          "reviewer": "Noah G.",
+          "rating": 4.5,
+          "comment": "Dr. Elena is understanding and empathetic. I always feel heard during our sessions."
+        },
+        {
+          "reviewer": "Michael Brown",
+          "rating": 4.5,
+          "comment": "Dr. Elena is extremely knowledgeable and kind. Sessions are well structured."
+        }
+      ],
+      "price_per_hour": 50,
+      "rating": 4.7,
+      "license": "Licensed Psychologist (License #10685)",
+      "specialization": "Relationship Counseling",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Elena is a highly experienced and licensed psychologist specializing in Relationship Counseling. With 15 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Elena is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p07": {
+      "name": "Dr. Fiona Gallagher",
+      "avatar_url": "https://i.pravatar.cc/150?img=14",
+      "experience": "5 years",
+      "reviews": [
+        {
+          "reviewer": "Emma S.",
+          "rating": 4.5,
+          "comment": "Dr. Fiona helped our family communicate better within a few months."
+        }
+      ],
+      "price_per_hour": 60,
+      "rating": 4.75,
+      "license": "Licensed Psychologist (License #10822)",
+      "specialization": "Child Psychology",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "Fiona is a highly experienced and licensed psychologist specializing in Child Psychology. With 5 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Fiona is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p08": {
+      "name": "Dr. Gustav Ahlberg",
+      "avatar_url": "https://i.pravatar.cc/150?img=16",
+      "experience": "14 years",
+      "reviews": [
+        {
+          "reviewer": "Daniel W.",
+          "rating": 4.5,
+          "comment": "Dr. Gustav is extremely knowledgeable and kind. Sessions are well structured."
+        },
+        {
+          "reviewer": "Ethan C.",
+          "rating": 4.0,
+          "comment": "Dr. Gustav gave me practical tools I use every day. Highly recommended."
+        }
+      ],
+      "price_per_hour": 60,
+      "rating": 4.75,
+      "license": "Licensed Psychologist (License #10959)",
+      "specialization": "Addiction Recovery",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Gustav is a highly experienced and licensed psychologist specializing in Addiction Recovery. With 14 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Gustav is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p09": {
+      "name": "Dr. Hannah Levi",
+      "avatar_url": "https://i.pravatar.cc/150?img=18",
+      "experience": "20 years",
+      "reviews": [
+        {
+          "reviewer": "Lucas M.",
+          "rating": 5.0,
+          "comment": "Dr. Hannah is extremely knowledgeable and kind. Sessions are well structured."
+        }
+      ],
+      "price_per_hour": 80,
+      "rating": 4.75,
+      "license": "Licensed Psychologist (License #11096)",
+      "specialization": "Grief Counseling",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Hannah is a highly experienced and licensed psychologist specializing in Grief Counseling. With 20 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Hannah is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p10": {
+      "name": "Dr. Ingrid Bauer",
+      "avatar_url": "https://i.pravatar.cc/150?img=20",
+      "experience": "20 years",
+      "reviews": [
+        {
+          "reviewer": "Daniel W.",
+          "rating": 4.0,
+          "comment": "Dr. Ingrid helped me through a very difficult period of my life."
+        },
+        {
+          "reviewer": "Liam F.",
+          "rating": 4.0,
+          "comment": "Dr. Ingrid created a safe space where I could finally open up."
+        },
+        {
+          "reviewer": "Emma S.",
+          "rating": 4.5,
+          "comment": "Dr. Ingrid is understanding and empathetic. I always feel heard during our sessions."
+        }
+      ],
+      "price_per_hour": 80,
+      "rating": 4.8,
+      "license": "Licensed Psychologist (License #11233)",
+      "specialization": "Cognitive Behavioral Therapy",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Ingrid is a highly experienced and licensed psychologist specializing in Cognitive Behavioral Therapy. With 20 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Ingrid is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p11": {
+      "name": "Dr. James Whitfield",
+      "avatar_url": "https://i.pravatar.cc/150?img=22",
+      "experience": "9 years",
+      "reviews": [
+        {
+          "reviewer": "Ava R.",
+          "rating": 5.0,
+          "comment": "Dr. James offers a warm, evidence-based approach that really works for me."
+        }
+      ],
+      "price_per_hour": 100,
+      "rating": 4.8,
+      "license": "Licensed Psychologist (License #11370)",
+      "specialization": "Family Therapy",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "James is a highly experienced and licensed psychologist specializing in Family Therapy. With 9 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. James is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p12": {
+      "name": "Dr. Kenji Tanaka",
+      "avatar_url": "https://i.pravatar.cc/150?img=24",
+      "experience": "17 years",
+      "reviews": [
+        {
+          "reviewer": "Rachel K.",
+          "rating": 4.5,
+          "comment": "Dr. Kenji is extremely knowledgeable and kind. Sessions are well structured."
+        },
+        {
+          "reviewer": "Ethan C.",
+          "rating": 5.0,
+          "comment": "Dr. Kenji offers a warm, evidence-based approach that really works for me."
+        }
+      ],
+      "price_per_hour": 100,
+      "rating": 4.8,
+      "license": "Licensed Psychologist (License #11507)",
+      "specialization": "Anxiety & Stress",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Kenji is a highly experienced and licensed psychologist specializing in Anxiety & Stress. With 17 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Kenji is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p13": {
+      "name": "Dr. Laura Simmons",
+      "avatar_url": "https://i.pravatar.cc/150?img=26",
+      "experience": "21 years",
+      "reviews": [
+        {
+          "reviewer": "Tom B.",
+          "rating": 4.5,
+          "comment": "Dr. Laura helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Linda Johnson",
+          "rating": 4.0,
+          "comment": "Dr. Laura is understanding and empathetic. I always feel heard during our sessions."
+        }
+      ],
+      "price_per_hour": 100,
+      "rating": 4.9,
+      "license": "Licensed Psychologist (License #11644)",
+      "specialization": "Trauma and PTSD",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Laura is a highly experienced and licensed psychologist specializing in Trauma and PTSD. With 21 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Laura is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p14": {
+      "name": "Dr. Marcus Lee",
+      "avatar_url": "https://i.pravatar.cc/150?img=28",
+      "experience": "7 years",
+      "reviews": [
+        {
+          "reviewer": "Emma S.",
+          "rating": 5.0,
+          "comment": "Dr. Marcus is understanding and empathetic. I always feel heard during our sessions."
+        },
+        {
+          "reviewer": "Emma S.",
+          "rating": 5.0,
+          "comment": "Dr. Marcus helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Olivia T.",
+          "rating": 4.5,
+          "comment": "Dr. Marcus has been a great help in managing my anxiety. The insights were valuable."
+        }
+      ],
+      "price_per_hour": 100,
+      "rating": 4.9,
+      "license": "Licensed Psychologist (License #11781)",
+      "specialization": "Career Counseling",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Marcus is a highly experienced and licensed psychologist specializing in Career Counseling. With 7 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Marcus is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p15": {
+      "name": "Dr. Nadia Petrova",
+      "avatar_url": "https://i.pravatar.cc/150?img=30",
+      "experience": "6 years",
+      "reviews": [
+        {
+          "reviewer": "Daniel W.",
+          "rating": 4.0,
+          "comment": "Dr. Nadia is extremely knowledgeable and kind. Sessions are well structured."
+        },
+        {
+          "reviewer": "Emma S.",
+          "rating": 4.5,
+          "comment": "Dr. Nadia helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Michael Brown",
+          "rating": 4.5,
+          "comment": "Dr. Nadia gave me practical tools I use every day. Highly recommended."
+        }
+      ],
+      "price_per_hour": 120,
+      "rating": 4.5,
+      "license": "Licensed Psychologist (License #11918)",
+      "specialization": "Depression and Mood Disorders",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "Nadia is a highly experienced and licensed psychologist specializing in Depression and Mood Disorders. With 6 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Nadia is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p16": {
+      "name": "Dr. Oliver Grant",
+      "avatar_url": "https://i.pravatar.cc/150?img=32",
+      "experience": "19 years",
+      "reviews": [
+        {
+          "reviewer": "Sofia P.",
+          "rating": 5.0,
+          "comment": "Dr. Oliver helped me through a very difficult period of my life."
+        },
+        {
+          "reviewer": "Rachel K.",
+          "rating": 4.5,
+          "comment": "Dr. Oliver gave me practical tools I use every day. Highly recommended."
+        },
+        {
+          "reviewer": "Olivia T.",
+          "rating": 5.0,
+          "comment": "Dr. Oliver has been a great help in managing my anxiety. The insights were valuable."
+        }
+      ],
+      "price_per_hour": 120,
+      "rating": 4.6,
+      "license": "Licensed Psychologist (License #12055)",
+      "specialization": "Relationship Counseling",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Oliver is a highly experienced and licensed psychologist specializing in Relationship Counseling. With 19 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Oliver is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p17": {
+      "name": "Dr. Priya Nair",
+      "avatar_url": "https://i.pravatar.cc/150?img=34",
+      "experience": "22 years",
+      "reviews": [
+        {
+          "reviewer": "Michael Brown",
+          "rating": 4.0,
+          "comment": "Dr. Priya created a safe space where I could finally open up."
+        },
+        {
+          "reviewer": "Chloe H.",
+          "rating": 4.5,
+          "comment": "Dr. Priya helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 140,
+      "rating": 4.6,
+      "license": "Licensed Psychologist (License #12192)",
+      "specialization": "Child Psychology",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Priya is a highly experienced and licensed psychologist specializing in Child Psychology. With 22 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Priya is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p18": {
+      "name": "Dr. Quentin Marsh",
+      "avatar_url": "https://i.pravatar.cc/150?img=36",
+      "experience": "4 years",
+      "reviews": [
+        {
+          "reviewer": "Linda Johnson",
+          "rating": 4.0,
+          "comment": "Dr. Quentin helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Liam F.",
+          "rating": 4.0,
+          "comment": "Dr. Quentin gave me practical tools I use every day. Highly recommended."
+        },
+        {
+          "reviewer": "Rachel K.",
+          "rating": 5.0,
+          "comment": "Dr. Quentin gave me practical tools I use every day. Highly recommended."
+        }
+      ],
+      "price_per_hour": 140,
+      "rating": 4.6,
+      "license": "Licensed Psychologist (License #12329)",
+      "specialization": "Addiction Recovery",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Quentin is a highly experienced and licensed psychologist specializing in Addiction Recovery. With 4 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Quentin is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p19": {
+      "name": "Dr. Rosa Delgado",
+      "avatar_url": "https://i.pravatar.cc/150?img=38",
+      "experience": "11 years",
+      "reviews": [
+        {
+          "reviewer": "Chloe H.",
+          "rating": 5.0,
+          "comment": "Dr. Rosa helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 150,
+      "rating": 4.3,
+      "license": "Licensed Psychologist (License #12466)",
+      "specialization": "Grief Counseling",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "Rosa is a highly experienced and licensed psychologist specializing in Grief Counseling. With 11 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Rosa is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p20": {
+      "name": "Dr. Samuel Osei",
+      "avatar_url": "https://i.pravatar.cc/150?img=40",
+      "experience": "12 years",
+      "reviews": [
+        {
+          "reviewer": "Ava R.",
+          "rating": 4.5,
+          "comment": "Dr. Samuel helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Chloe H.",
+          "rating": 5.0,
+          "comment": "Dr. Samuel helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Linda Johnson",
+          "rating": 4.5,
+          "comment": "Dr. Samuel helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 150,
+      "rating": 4.3,
+      "license": "Licensed Psychologist (License #12603)",
+      "specialization": "Cognitive Behavioral Therapy",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Samuel is a highly experienced and licensed psychologist specializing in Cognitive Behavioral Therapy. With 12 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Samuel is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p21": {
+      "name": "Dr. Tessa Moreau",
+      "avatar_url": "https://i.pravatar.cc/150?img=42",
+      "experience": "5 years",
+      "reviews": [
+        {
+          "reviewer": "Noah G.",
+          "rating": 5.0,
+          "comment": "Dr. Tessa helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 160,
+      "rating": 4.4,
+      "license": "Licensed Psychologist (License #12740)",
+      "specialization": "Family Therapy",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Tessa is a highly experienced and licensed psychologist specializing in Family Therapy. With 5 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Tessa is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p22": {
+      "name": "Dr. Umar Farouk",
+      "avatar_url": "https://i.pravatar.cc/150?img=44",
+      "experience": "21 years",
+      "reviews": [
+        {
+          "reviewer": "Linda Johnson",
+          "rating": 4.0,
+          "comment": "Dr. Umar helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 160,
+      "rating": 4.4,
+      "license": "Licensed Psychologist (License #12877)",
+      "specialization": "Anxiety & Stress",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Umar is a highly experienced and licensed psychologist specializing in Anxiety & Stress. With 21 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Umar is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p23": {
+      "name": "Dr. Valerie Chen",
+      "avatar_url": "https://i.pravatar.cc/150?img=46",
+      "experience": "5 years",
+      "reviews": [
+        {
+          "reviewer": "Linda Johnson",
+          "rating": 5.0,
+          "comment": "Dr. Valerie helped me through a very difficult period of my life."
+        },
+        {
+          "reviewer": "Sofia P.",
+          "rating": 5.0,
+          "comment": "Dr. Valerie helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 180,
+      "rating": 5.0,
+      "license": "Licensed Psychologist (License #13014)",
+      "specialization": "Trauma and PTSD",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "Valerie is a highly experienced and licensed psychologist specializing in Trauma and PTSD. With 5 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Valerie is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p24": {
+      "name": "Dr. Wanda Kowalska",
+      "avatar_url": "https://i.pravatar.cc/150?img=48",
+      "experience": "20 years",
+      "reviews": [
+        {
+          "reviewer": "Chloe H.",
+          "rating": 5.0,
+          "comment": "Dr. Wanda helped our family communicate better within a few months."
+        },
+        {
+          "reviewer": "Tom B.",
+          "rating": 5.0,
+          "comment": "Dr. Wanda offers a warm, evidence-based approach that really works for me."
+        },
+        {
+          "reviewer": "Tom B.",
+          "rating": 4.0,
+          "comment": "Dr. Wanda is understanding and empathetic. I always feel heard during our sessions."
+        }
+      ],
+      "price_per_hour": 180,
+      "rating": 5.0,
+      "license": "Licensed Psychologist (License #13151)",
+      "specialization": "Career Counseling",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Wanda is a highly experienced and licensed psychologist specializing in Career Counseling. With 20 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Wanda is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p25": {
+      "name": "Dr. Xavier Dupont",
+      "avatar_url": "https://i.pravatar.cc/150?img=50",
+      "experience": "16 years",
+      "reviews": [
+        {
+          "reviewer": "Emma S.",
+          "rating": 5.0,
+          "comment": "Dr. Xavier has been a great help in managing my anxiety. The insights were valuable."
+        },
+        {
+          "reviewer": "Ava R.",
+          "rating": 4.0,
+          "comment": "Dr. Xavier has been a great help in managing my anxiety. The insights were valuable."
+        }
+      ],
+      "price_per_hour": 200,
+      "rating": 4.75,
+      "license": "Licensed Psychologist (License #13288)",
+      "specialization": "Depression and Mood Disorders",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Xavier is a highly experienced and licensed psychologist specializing in Depression and Mood Disorders. With 16 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Xavier is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p26": {
+      "name": "Dr. Yara Haddad",
+      "avatar_url": "https://i.pravatar.cc/150?img=52",
+      "experience": "15 years",
+      "reviews": [
+        {
+          "reviewer": "Tom B.",
+          "rating": 4.5,
+          "comment": "Dr. Yara helped me through a very difficult period of my life."
+        }
+      ],
+      "price_per_hour": 100,
+      "rating": 4.7,
+      "license": "Licensed Psychologist (License #13425)",
+      "specialization": "Relationship Counseling",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Yara is a highly experienced and licensed psychologist specializing in Relationship Counseling. With 15 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Yara is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p27": {
+      "name": "Dr. Zoe Anderson",
+      "avatar_url": "https://i.pravatar.cc/150?img=54",
+      "experience": "20 years",
+      "reviews": [
+        {
+          "reviewer": "Emma S.",
+          "rating": 4.5,
+          "comment": "Dr. Zoe is extremely knowledgeable and kind. Sessions are well structured."
+        }
+      ],
+      "price_per_hour": 50,
+      "rating": 4.8,
+      "license": "Licensed Psychologist (License #13562)",
+      "specialization": "Child Psychology",
+      "initial_consultation": "Free 45-minute initial consultation",
+      "about": "Zoe is a highly experienced and licensed psychologist specializing in Child Psychology. With 20 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Zoe is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p28": {
+      "name": "Dr. Noah Lindqvist",
+      "avatar_url": "https://i.pravatar.cc/150?img=56",
+      "experience": "17 years",
+      "reviews": [
+        {
+          "reviewer": "Lucas M.",
+          "rating": 5.0,
+          "comment": "Dr. Noah is understanding and empathetic. I always feel heard during our sessions."
+        }
+      ],
+      "price_per_hour": 120,
+      "rating": 4.9,
+      "license": "Licensed Psychologist (License #13699)",
+      "specialization": "Addiction Recovery",
+      "initial_consultation": "Paid initial consultation, $20",
+      "about": "Noah is a highly experienced and licensed psychologist specializing in Addiction Recovery. With 17 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Noah is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p29": {
+      "name": "Dr. Maya Rosen",
+      "avatar_url": "https://i.pravatar.cc/150?img=58",
+      "experience": "4 years",
+      "reviews": [
+        {
+          "reviewer": "Chloe H.",
+          "rating": 4.5,
+          "comment": "Dr. Maya gave me practical tools I use every day. Highly recommended."
+        }
+      ],
+      "price_per_hour": 80,
+      "rating": 4.5,
+      "license": "Licensed Psychologist (License #13836)",
+      "specialization": "Grief Counseling",
+      "initial_consultation": "Free 15-minute initial consultation",
+      "about": "Maya is a highly experienced and licensed psychologist specializing in Grief Counseling. With 4 years of practice, she has helped numerous individuals overcome their challenges and regain control of their lives. Maya is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    },
+    "p30": {
+      "name": "Dr. Leo Santoro",
+      "avatar_url": "https://i.pravatar.cc/150?img=60",
+      "experience": "16 years",
+      "reviews": [
+        {
+          "reviewer": "Tom B.",
+          "rating": 5.0,
+          "comment": "Dr. Leo has been a great help in managing my anxiety. The insights were valuable."
+        },
+        {
+          "reviewer": "Rachel K.",
+          "rating": 5.0,
+          "comment": "Dr. Leo has been a great help in managing my anxiety. The insights were valuable."
+        }
+      ],
+      "price_per_hour": 60,
+      "rating": 4.6,
+      "license": "Licensed Psychologist (License #13973)",
+      "specialization": "Cognitive Behavioral Therapy",
+      "initial_consultation": "Free 30-minute initial consultation",
+      "about": "Leo is a highly experienced and licensed psychologist specializing in Cognitive Behavioral Therapy. With 16 years of practice, he has helped numerous individuals overcome their challenges and regain control of their lives. Leo is known for an empathetic and understanding approach to therapy, making clients feel comfortable and supported throughout their journey to better mental health."
+    }
+  }
+}

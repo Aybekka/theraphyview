@@ -1,0 +1,145 @@
+.header {
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.nav {
+  max-width: var(--container-width);
+  min-height: var(--header-height);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-24) var(--space-16);
+  gap: var(--space-16);
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.logoAccent {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.logoRest {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  gap: var(--space-40);
+}
+
+.link {
+  position: relative;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  padding-bottom: var(--space-8);
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
+
+.link.active::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: var(--space-8);
+  height: var(--space-8);
+  border-radius: var(--radius-round);
+  background: var(--color-primary);
+}
+
+.authArea {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+  margin-right: var(--space-8);
+}
+
+.userIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-badge);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+}
+
+.userName {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.outlineButton {
+  padding: var(--btn-outline-pad);
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border-strong);
+  background: transparent;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+}
+
+.outlineButton:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.fillButton {
+  padding: var(--btn-pad);
+  border-radius: var(--radius-pill);
+  border: none;
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+}
+
+.fillButton:hover {
+  background: var(--color-primary-hover);
+}
+
+@media (max-width: 767px) {
+  .nav {
+    justify-content: center;
+  }
+  .links {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: var(--space-24);
+  }
+  .outlineButton,
+  .fillButton {
+    padding: var(--space-12) var(--space-24);
+  }
+}

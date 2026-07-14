@@ -1,0 +1,124 @@
+.heading {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.description {
+  margin: var(--space-20) 0 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-text-soft);
+}
+
+.form {
+  margin-top: var(--space-40);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-18);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.field input {
+  width: 100%;
+  padding: var(--input-pad);
+  border-radius: var(--radius-input);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-text);
+}
+
+.field input::placeholder {
+  color: var(--color-text);
+}
+
+.field input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.passwordWrap {
+  position: relative;
+}
+
+.passwordWrap input {
+  padding-right: var(--space-48);
+}
+
+.eyeButton {
+  position: absolute;
+  top: 50%;
+  right: var(--space-18);
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.error {
+  color: var(--color-error);
+  font-size: 13px;
+}
+
+.firebaseError {
+  margin: 0;
+  color: var(--color-error);
+  font-size: 14px;
+}
+
+.submit {
+  margin-top: var(--space-8);
+  padding: var(--space-16);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background: var(--color-primary-hover);
+}
+
+.submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.switchText {
+  margin: var(--space-20) 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--color-text-soft);
+}
+
+.link {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 32px;
+  }
+}

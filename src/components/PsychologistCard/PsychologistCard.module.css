@@ -1,0 +1,259 @@
+.card {
+  display: flex;
+  gap: var(--space-24);
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  padding: var(--space-24);
+}
+
+.avatarBox {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-primary-soft);
+  border-radius: var(--radius-modal);
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: var(--radius-image);
+  object-fit: cover;
+}
+
+.onlineDot {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-round);
+  background: var(--color-primary);
+  border: 2px solid var(--color-surface);
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+}
+
+.topRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-16);
+  flex-wrap: wrap;
+}
+
+.category {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-text-secondary);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+  flex-wrap: wrap;
+}
+
+.rating,
+.price {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-text);
+}
+
+.star {
+  color: var(--color-star);
+}
+
+.divider {
+  width: 1px;
+  height: 16px;
+  background: var(--color-border-strong);
+}
+
+.priceValue {
+  color: var(--color-primary);
+}
+
+.heartButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: var(--space-12);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.heartButton:hover {
+  color: var(--color-primary);
+}
+
+.heartActive {
+  color: var(--color-primary);
+}
+
+.name {
+  margin: var(--space-8) 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--color-text);
+}
+
+.chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin: var(--space-24) 0 0;
+  padding: 0;
+}
+
+.chip {
+  padding: var(--space-8) var(--space-16);
+  border-radius: var(--radius-card);
+  background: var(--color-bg-muted);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-text);
+}
+
+.chipLabel {
+  color: var(--color-text-secondary);
+  font-weight: 400;
+}
+
+.about {
+  margin: var(--space-24) 0 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-text-soft);
+}
+
+.readMore {
+  margin-top: var(--space-16);
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--color-text);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.readMore:hover {
+  color: var(--color-primary);
+}
+
+.expandedSection {
+  margin-top: var(--space-48);
+}
+
+.reviews {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-24);
+  margin: 0;
+  padding: 0;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.reviewAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: var(--radius-round);
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.reviewMeta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.reviewName {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--color-text);
+}
+
+.reviewRating {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--color-text);
+}
+
+.reviewText {
+  margin: var(--space-16) 0 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--color-text-soft);
+}
+
+.appointmentButton {
+  margin-top: var(--space-40);
+  padding: var(--btn-pad);
+  border: none;
+  border-radius: var(--radius-pill);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+}
+
+.appointmentButton:hover {
+  background: var(--color-primary-hover);
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex-direction: column;
+  }
+  .topRow {
+    flex-direction: column;
+  }
+  .meta {
+    gap: var(--space-8);
+  }
+  .appointmentButton {
+    width: 100%;
+  }
+}

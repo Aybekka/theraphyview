@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "psychologists": {
+      ".read": true,
+      ".write": false,
+      ".indexOn": ["name", "price_per_hour", "rating"]
+    },
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+}
