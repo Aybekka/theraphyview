@@ -15,9 +15,8 @@ export default function Header() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <NavLink to="/" className={styles.logo}>
-          <span className={styles.logoAccent}>therapy</span>
-          <span className={styles.logoAccent}>.</span>
-          <span className={styles.logoRest}>view</span>
+          <span className={styles.logoAccent}>Therapy</span>
+          <span className={styles.logoRest}>View</span>
         </NavLink>
 
         <div className={styles.links}>
