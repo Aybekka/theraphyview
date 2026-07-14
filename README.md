@@ -1,6 +1,6 @@
 # Therapy.View
 
-**Live demo:** [psych-app-pi.vercel.app](https://psych-app-pi.vercel.app)
+**Live demo:** [therapy-view.vercel.app](https://therapy-view.vercel.app/)
 
 Therapy.View is a single-page application for finding licensed psychologists.
 Visitors can browse specialists, compare them by rating and price, read client
