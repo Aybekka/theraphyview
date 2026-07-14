@@ -1,5 +1,7 @@
 # TheraphyView
 
+**Live demo:** [psych-app-pi.vercel.app](https://psych-app-pi.vercel.app)
+
 TheraphyView is a single-page application for finding licensed psychologists.
 Visitors can browse specialists, compare them by rating and price, read client
 reviews, and book an appointment online. Registered users can additionally save
@@ -43,8 +45,8 @@ psychologists to a personal favorites list that persists between sessions.
 ## Getting Started
 
 ```bash
-git clone <repository-url>
-cd psych-app
+git clone https://github.com/Aybekka/theraphyview.git
+cd theraphyview
 npm install
 cp .env.example .env
 npm run dev
