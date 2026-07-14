@@ -21,7 +21,7 @@ Ordered by priority. Each phase leaves the app in a working, submittable state.
       link, setup instructions
 - [x] Add `.gitignore` (node_modules, dist, .env) and `.env.example`
 - [x] `git init`, first commit (push to GitHub pending)
-- [ ] Deploy (Netlify or Vercel — SPA redirect rule needed for React Router)
+- [x] Deploy — Vercel production: https://psych-app-pi.vercel.app
 
 ## Phase 3 — Spec deviations
 
