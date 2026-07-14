@@ -45,8 +45,8 @@ psychologists to a personal favorites list that persists between sessions.
 ## Getting Started
 
 ```bash
-git clone https://github.com/Aybekka/theraphyview.git
-cd theraphyview
+git clone https://github.com/Aybekka/Therapy.View.git
+cd Therapy.View
 npm install
 cp .env.example .env
 npm run dev
