@@ -3,6 +3,7 @@ import SortControl from '../../components/SortControl/SortControl';
 import PsychologistCard from '../../components/PsychologistCard/PsychologistCard';
 import AppointmentModal from '../../components/AppointmentModal/AppointmentModal';
 import AuthModal from '../../components/AuthModal/AuthModal';
+import AuthPromptModal from '../../components/AuthPromptModal/AuthPromptModal';
 import { usePsychologists } from '../../hooks/usePsychologists';
 import styles from './Psychologists.module.css';
 
@@ -12,6 +13,7 @@ export default function Psychologists() {
 
   const [appointmentTarget, setAppointmentTarget] = useState(null);
   const [authPromptOpen, setAuthPromptOpen] = useState(false);
+  const [authModalOpen, setAuthModalOpen] = useState(false);
 
   return (
     <div className={styles.page}>
@@ -25,6 +27,19 @@ export default function Psychologists() {
         {error && <p className={styles.errorText}>Couldn&apos;t load psychologists: {error}</p>}
 
         <div className={styles.grid}>
+          {loading &&
+            items.length === 0 &&
+            [0, 1, 2].map((n) => (
+              <div key={n} className={styles.skeleton} aria-hidden="true">
+                <div className={styles.skeletonAvatar} />
+                <div className={styles.skeletonBody}>
+                  <div className={styles.skeletonLine} />
+                  <div className={styles.skeletonLine} />
+                  <div className={styles.skeletonLine} />
+                  <div className={styles.skeletonLine} />
+                </div>
+              </div>
+            ))}
           {items.map((psychologist) => (
             <PsychologistCard
               key={psychologist.id}
@@ -59,7 +74,16 @@ export default function Psychologists() {
         psychologist={appointmentTarget}
       />
 
-      <AuthModal isOpen={authPromptOpen} onClose={() => setAuthPromptOpen(false)} />
+      <AuthPromptModal
+        isOpen={authPromptOpen}
+        onClose={() => setAuthPromptOpen(false)}
+        onLogin={() => {
+          setAuthPromptOpen(false);
+          setAuthModalOpen(true);
+        }}
+      />
+
+      <AuthModal isOpen={authModalOpen} onClose={() => setAuthModalOpen(false)} />
     </div>
   );
 }
