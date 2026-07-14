@@ -3,6 +3,8 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import Modal from '../Modal/Modal';
+import { useAuth } from '../../context/AuthContext';
+import { saveBooking } from '../../firebase/database';
 import styles from './AppointmentModal.module.css';
 
 const TIME_SLOTS = [
@@ -23,8 +25,10 @@ const schema = yup.object({
 });
 
 export default function AppointmentModal({ isOpen, onClose, psychologist }) {
+  const { currentUser } = useAuth();
   const [timeOpen, setTimeOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState('');
   const timeRef = useRef(null);
 
   const {
@@ -59,12 +63,26 @@ export default function AppointmentModal({ isOpen, onClose, psychologist }) {
   function handleClose() {
     reset();
     setSubmitted(false);
+    setSubmitError('');
     onClose();
   }
 
-  async function onSubmit() {
-    setSubmitted(true);
-    reset();
+  async function onSubmit(data) {
+    setSubmitError('');
+    try {
+      if (currentUser) {
+        await saveBooking(currentUser.uid, {
+          ...data,
+          psychologistId: psychologist?.id ?? null,
+          psychologistName: psychologist?.name ?? null,
+          createdAt: Date.now(),
+        });
+      }
+      setSubmitted(true);
+      reset();
+    } catch (error) {
+      setSubmitError(error.message.replace('Firebase: ', ''));
+    }
   }
 
   return (
@@ -174,6 +192,8 @@ export default function AppointmentModal({ isOpen, onClose, psychologist }) {
               <textarea placeholder="Comment" rows={4} {...register('comment')} />
               {errors.comment && <span className={styles.error}>{errors.comment.message}</span>}
             </div>
+
+            {submitError && <p className={styles.submitError}>{submitError}</p>}
 
             <button type="submit" disabled={isSubmitting} className={styles.submit}>
               Send

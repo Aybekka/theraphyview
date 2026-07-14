@@ -9,6 +9,7 @@ import {
   get,
   set,
   remove,
+  push,
   onValue,
 } from 'firebase/database';
 import { db } from './config';
@@ -85,4 +86,8 @@ export async function addFavorite(uid, psychologistId) {
 
 export async function removeFavorite(uid, psychologistId) {
   await remove(ref(db, `${USERS_PATH}/${uid}/favorites/${psychologistId}`));
+}
+
+export async function saveBooking(uid, booking) {
+  await push(ref(db, `${USERS_PATH}/${uid}/bookings`), booking);
 }

@@ -170,6 +170,12 @@
   font-size: 13px;
 }
 
+.submitError {
+  margin: 0;
+  color: var(--color-error);
+  font-size: 14px;
+}
+
 .submit {
   margin-top: var(--space-8);
   padding: var(--space-16);
