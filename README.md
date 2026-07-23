@@ -39,8 +39,8 @@ psychologists to a personal favorites list that persists between sessions.
 
 ## Design
 
-- Mockup: [Psychologists.Services (Figma)](https://www.figma.com/design/jWGFMJV27QDoiBTmMu8hZv/Psychologists.Services--Copy-?node-id=0-1)
-- Technical specification: _add the link from your course dashboard here_
+- Mockup:
+  [Psychologists.Services (Figma)](https://www.figma.com/design/jWGFMJV27QDoiBTmMu8hZv/Psychologists.Services--Copy-?node-id=0-1)
 
 ## Getting Started
 
@@ -56,8 +56,8 @@ Fill `.env` with your Firebase project credentials (see `.env.example`).
 
 ### Firebase setup
 
-1. Create a Firebase project with Authentication (Email/Password provider) and
-   a Realtime Database.
+1. Create a Firebase project with Authentication (Email/Password provider) and a
+   Realtime Database.
 2. Publish the security rules from `database.rules.json` (Realtime Database →
    Rules). They make the catalog publicly readable, restrict user data to its
    owner, and define the indexes required for sorting.
